@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44BCC002-7490-4CEC-A3B3-DBE82240E061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3D0D3C22-D416-4BF8-9442-B6BD8FF77E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.Discord", "Nano.Discord\Nano.Discord.csproj", "{915B6242-A419-4A60-A561-07C59D0E4DAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.Application", "Nano.Application\Nano.Application.csproj", "{85301218-C62E-48A8-9950-6FB183A43331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{915B6242-A419-4A60-A561-07C59D0E4DAC} = {44BCC002-7490-4CEC-A3B3-DBE82240E061}
+		{85301218-C62E-48A8-9950-6FB183A43331} = {44BCC002-7490-4CEC-A3B3-DBE82240E061}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915B6242-A419-4A60-A561-07C59D0E4DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915B6242-A419-4A60-A561-07C59D0E4DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915B6242-A419-4A60-A561-07C59D0E4DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915B6242-A419-4A60-A561-07C59D0E4DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85301218-C62E-48A8-9950-6FB183A43331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85301218-C62E-48A8-9950-6FB183A43331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85301218-C62E-48A8-9950-6FB183A43331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85301218-C62E-48A8-9950-6FB183A43331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
