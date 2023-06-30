@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.Discord", "Nano.Discor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.Application", "Nano.Application\Nano.Application.csproj", "{85301218-C62E-48A8-9950-6FB183A43331}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nano.Application.Tests", "Nano.Application.Tests\Nano.Application.Tests.csproj", "{57CC3779-DEAD-4736-838E-49370366284B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{915B6242-A419-4A60-A561-07C59D0E4DAC} = {44BCC002-7490-4CEC-A3B3-DBE82240E061}
 		{85301218-C62E-48A8-9950-6FB183A43331} = {44BCC002-7490-4CEC-A3B3-DBE82240E061}
+		{57CC3779-DEAD-4736-838E-49370366284B} = {3D0D3C22-D416-4BF8-9442-B6BD8FF77E5D}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{915B6242-A419-4A60-A561-07C59D0E4DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +29,9 @@ Global
 		{85301218-C62E-48A8-9950-6FB183A43331}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85301218-C62E-48A8-9950-6FB183A43331}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85301218-C62E-48A8-9950-6FB183A43331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57CC3779-DEAD-4736-838E-49370366284B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CC3779-DEAD-4736-838E-49370366284B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CC3779-DEAD-4736-838E-49370366284B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CC3779-DEAD-4736-838E-49370366284B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
