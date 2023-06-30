@@ -7,4 +7,24 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Discord.Net" Version="3.9.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0-preview.2.23128.3" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="8.0.0-preview.2.23128.3" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0-preview.2.23128.3" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0-preview.2.23128.3" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-preview.2.23128.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="config.json" />
+        <Content Include="config.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Nano.Application\Nano.Application.csproj" />
+    </ItemGroup>
+
 </Project>
